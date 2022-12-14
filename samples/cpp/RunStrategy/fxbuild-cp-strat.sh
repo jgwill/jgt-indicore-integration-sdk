@@ -14,5 +14,5 @@ cp -r $THIS_DIR/../../../strategies/standard/* $THIS_DIR/bin/strategies/standard
 
 cp -r /a/repos/strategies/standard/include $THIS_DIR/bin/strategies/standard/
 tdir=$THIS_DIR/bin/strategies/standard/
-(cd /a/repos/strategies/standard;for s in $(cat .sdsstaging);do cp $s $tdir;done)
+(cd /a/repos/strategies/standard;for s in $(cat .sdsstaging);do cp $s $tdir/$s;done)
 
